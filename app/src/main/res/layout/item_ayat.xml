@@ -11,7 +11,6 @@
     app:contentPadding="5dp">
 
     <LinearLayout
-        android:id="@+id/cardSurat"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -21,12 +20,20 @@
         app:layout_constraintVertical_bias="0.021" android:padding="8dp"
         android:layout_marginBottom="10dp"
         >
-        
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/tvAsma"
-            android:text="Asma"
+            android:id="@+id/tvNomor"
+            android:text="Nomor"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvAr"
+            android:text="Arab"
             android:textColor="@color/black"
             android:textSize="20sp"
             android:layout_marginTop="10dp"/>
@@ -34,18 +41,12 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/tvArti"
+            android:id="@+id/tvId"
             android:text="Arti"
             android:textColor="@color/black"
             android:layout_marginTop="10dp"/>
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/tvAyat"
-            android:text="Ayat"
-            android:textColor="@color/black"
-            android:layout_marginTop="10dp"/>
+
 
     </LinearLayout>
 
